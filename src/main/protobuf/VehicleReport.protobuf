@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package tech.housemoran.realgod.models;
+message VehicleReport {
+    string make = 1;
+    string year = 2;
+    string model = 3;
+    string trim = 4;
+    string style = 5;
+    string type = 6;
+    string size = 7;
+    string category = 8;
+    string madeIn = 9;
+    string madeInCity = 10;
+    string doors = 11;
+    string fuelType = 12;
+    string fuelCapacity = 13;
+    string cityMileage = 14;
+    string highwayMileage = 15;
+    string engine = 16;
+    string engineSize = 17;
+    string engineCylinders = 18;
+    string transmission = 19;
+    string transmissionType = 20;
+    string transmissionSpeeds = 21;
+    string drivetrain = 22;
+    string antiBrakeSystem = 23;
+    string steeringType = 24;
+    string curbWeight = 25;
+    string grossVehicleWeightRating = 26;
+    string overallHeight = 27;
+    string overallLength = 28;
+    string overallWidth = 29;
+    string wheelBase = 30;
+    string standardSeating = 31;
+    string photo = 32;
+    string vin = 33;
+}
